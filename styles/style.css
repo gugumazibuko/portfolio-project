@@ -73,3 +73,6 @@ h2 {
     text-align: center;
   }
 }
+.img-fluid {
+  min-width: 150px;
+}
