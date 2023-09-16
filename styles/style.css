@@ -21,6 +21,31 @@ h6 {
   font-weight: bold;
   font-family: var(--heading-font-family);
 }
+nav {
+  padding: 20px 0;
+}
+.logo {
+  max-width: 200px;
+  height: 120px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: #6c63ff;
+}
 h1 {
   font-size: 96px;
   line-height: 1.5;
