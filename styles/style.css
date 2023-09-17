@@ -27,6 +27,7 @@ nav {
 .logo {
   max-width: 300px;
   height: 120px;
+  border-radius: 50%;
 }
 nav ul {
   margin: 0;
@@ -73,6 +74,26 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer.email-link:hover {
+  color: var(--branding-color);
+}
+footer.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+}
+footer.social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 .content {
   padding: 160px 20px;
