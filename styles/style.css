@@ -109,8 +109,8 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-.content {
-  padding: 160px 20px;
+.content-container {
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
