@@ -10,6 +10,12 @@ font-family: 'Poppins', sans-serif;*/
 }
 body {
   font-family: var(--default-font-family);
+  background: radial-gradient(
+    465px at -15.1% -25%,
+    rgb(17, 130, 193) 0%,
+    rgb(67, 166, 238) 49%,
+    rgb(126, 203, 244) 90.2%
+  );
 }
 h1,
 h2,
